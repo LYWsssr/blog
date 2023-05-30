@@ -1,19 +1,19 @@
 :root{
-  --c-brand #23d0d0
+  --c-brand #7b9fef
   --c-brand-light #1dbdd2
 
   // 主色调
   --color-main var(--c-brand)
   // 底部栏色调
-  --color-border #4dd0e1
+  --color-border #7b9fef
   // 引用字体色
-  --color-block #4dd0e1
+  --color-block #7b9fef
   // 加粗色调
-  --color-strong #26c6da
+  --color-strong #7b9fef
   // 代码样式
-  --color-code #26c6da
+  --color-code #7b9fef
   // 引用边框色
-  --color-border-left #26c6da
+  --color-border-left #7b9fef
 
   // 代码背景色
   --color-code-bg rgba(77,208,225,.08)
@@ -249,7 +249,7 @@ a.sidebar-link-item.active{
 
 .container strong {
   font-weight: bold;
-  color #26c6da
+  color #7b9fef
   padding 0 6px
   &:after{
     content ' ]'
@@ -361,6 +361,7 @@ a.sidebar-link-item.active{
     background-position 0 0
     background-repeat no-repeat
     background-size contain
+    filter hue-rotate(45deg)
     @media (max-width: 768px){
       left 4px
       top 6px

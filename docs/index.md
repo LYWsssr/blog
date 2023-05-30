@@ -1,6 +1,6 @@
 ---
 home: true
-// heroImage: /favicon.ico
+heroImage: /javascript.gif
 heroAlt: Logo image
 heroText: Interview
 tagline: the website of Interview with VitePress
@@ -13,5 +13,5 @@ features:
     details: 分为基础、进阶、地狱三级难度，分别面向应届生，有工作经验的程序员。
   - title: Experience
     details: 面试不仅需要技术，同时，也需要一些心理博弈。
-footer: MIT Licensed | Copyright © 2021-present CoolDream
+footer: MIT Licensed | Copyright © 2021-present LG_ssr
 ---

@@ -1,8 +1,8 @@
 module.exports = {
     // 网站标题
-    title: 'Interview',
+    title: 'LYW-Blog',
     // 网站描述
-    description: 'Interview with vitePress',
+    description: 'LYW-Blog with vitePress',
     // 打包目录
     dest: './dist',
     base:'/interview/',
@@ -21,6 +21,7 @@ module.exports = {
         '@vuepress/plugin-search',
         {
           locales: {
+            searchMaxSuggestions: 10,
             '/': {
               placeholder: 'Search',
             },
@@ -39,8 +40,8 @@ module.exports = {
         smoothScroll: true,
         // 导航栏配置
         nav:[
-            {text: '我的个人网站', link: 'https://www.cooldream.fun/home' },
-            {text: '掘金', link: 'https://juejin.cn/user/1855631359481847/posts'},
+            // {text: '我的个人网站', link: 'https://www.cooldream.fun/home' },
+            // {text: '掘金', link: 'https://juejin.cn/user/1855631359481847/posts'},
             {text: 'Github', link: 'https://github.com/Jack-Star-T'}
         ],
         sidebar:{
