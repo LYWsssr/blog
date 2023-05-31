@@ -5,18 +5,19 @@ export default defineConfig({
   lang: 'en-US',
   title: "LG-note",
   description: "A VitePress Site",
+  base:'/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '笔记', link: '/Vue/index.md' }
+      { text: '笔记', link: '/HTML/index.md' }
     ],
     smoothScroll: true,
     outlineTitle: 'In hac pagina',
     logo: 'https://api.iconify.design/logos:android-icon.svg?color=%23e0fffb',
     sidebar: getSidebar(),
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/LYWsssr/blog' }
     ],
     footer: {
       message: 'Released under the MIT License.',
@@ -31,6 +32,7 @@ function getSidebar() {
       items: [
         {
           text: 'HTML',
+          collapsible: true,
           items: [
             { text: 'HTML基础', link: '/HTML/index.md', },
             { text: 'HTML进阶', link: '/HTML/advanced.md', },
@@ -48,22 +50,21 @@ function getSidebar() {
             { text: 'Vue进阶', link: '/Vue/advanced' },
           ]
         },
+        // {
+        //   text: '浏览器',
+        //   items: [
+        //     { text: '浏览器基础', link: '/Vue/' },
+        //     { text: '浏览器进阶', link: '/Vue/advanced' },
+        //     { text: '网络基础', link: '/Network/' },
+        //     { text: '网络进阶', link: '/Network/advanced' },
+        //     { text: '安全基础', link: '/Security/' },
+        //     { text: '安全进阶', link: '/Security/advanced' },
+        //   ]
+        // },
         {
-          text: '浏览器',
+          text: 'webpack',
           items: [
-            { text: '浏览器基础', link: '/Vue/' },
-            { text: '浏览器进阶', link: '/Vue/advanced' },
-            { text: '网络基础', link: '/Network/' },
-            { text: '网络进阶', link: '/Network/advanced' },
-            { text: '安全基础', link: '/Security/' },
-            { text: '安全进阶', link: '/Security/advanced' },
-          ]
-        },
-        {
-          text: '面经',
-          items: [
-            { text: '面经基础', link: '/Experience/' },
-            { text: '面经进阶', link: '/Experience/advanced' },
+            { text: 'webpack', link: '/Webpack/' }
           ]
         },
       ],

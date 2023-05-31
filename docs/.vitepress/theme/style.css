@@ -104,6 +104,7 @@
 .VPHomeFeatures h2{
   border: none !important;
   font-size: 24px !important;
+  padding-left: 0 !important;
 }
 
 .VPHomeFeatures h2:after{

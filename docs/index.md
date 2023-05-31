@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "LG note"
   text: "Blog"
-  tagline: 备忘录
+  tagline: awesome
   image:
     src: /javascript.gif
     alt: VitePress
@@ -15,14 +15,17 @@ hero:
       link: /HTML/index.md
     - theme: alt
       text: View on GitHub
-      link: /api-examples
+      link: https://github.com/LYWsssr/blog
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📓
+    title: 笔记
+    details: 日常随笔
+  - icon: 🧑‍💻
+    title: 面试题
+    details: 每日面试题，每天进步一点点！
+  - icon: 📅
+    title: 项目
+    details: 项目介绍
 ---
 
